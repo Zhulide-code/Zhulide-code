@@ -1,14 +1,13 @@
 <div align="center">
 
-  <!-- Bow Icon & Name Title -->
-  <img src="./img/bow.svg" width="60" height="60" alt="Bow" />
-  <h1>Zhulide</h1>
+  <!-- Bow Icon & Name Title (Side by Side) -->
+  <h1>
+    <img src="./img/bow.svg" width="45" height="45" alt="Bow" style="vertical-align: middle; margin-right: 8px;" />
+    Zhulide
+  </h1>
 
   <!-- Profile Views Counter -->
   <img src="https://komarev.com/ghpvc/?username=Zhulide-code&label=PROFILE+VIEWS&color=F75C7E&style=for-the-badge" alt="Profile Views" />
-
-  <br /><br />
-
 
   <br /><br />
 
@@ -20,6 +19,9 @@
   <a href="https://www.instagram.com/zhulide_?stkn=MTBobHJiNGtoNW9kOA%3D%3D&utm_source=qr">
     <img src="./img/instagram.svg" width="40" height="40" alt="Instagram" />
   </a>
+
+</div>
+
 ---
 
 ### <img src="./img/folder.svg" width="28" height="28" align="center" /> About Me
