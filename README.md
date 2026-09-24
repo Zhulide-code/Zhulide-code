@@ -20,14 +20,6 @@
   <a href="https://www.instagram.com/zhulide_?stkn=MTBobHJiNGtoNW9kOA%3D%3D&utm_source=qr">
     <img src="./img/instagram.svg" width="40" height="40" alt="Instagram" />
   </a>
-  &nbsp;&nbsp;
-  <img src="./img/terminal.svg" width="40" height="40" alt="Terminal" />
-  &nbsp;&nbsp;
-  <img src="./img/robot.svg" width="40" height="40" alt="Robot" />
-  &nbsp;&nbsp;
-  <img src="./img/camera.svg" width="40" height="40" alt="Camera" />
-  <br /><br />
-
 ---
 
 ### <img src="./img/folder.svg" width="28" height="28" align="center" /> About Me
