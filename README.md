@@ -3,7 +3,7 @@
   <!-- Bow Icon & Full Name Title -->
   <h1>
     <img src="./img/bow.svg" width="45" height="45" alt="Bow" style="vertical-align: middle; margin-right: 8px;" />
-    Zhulide Myumyun
+    Hi I'm Zhulide Myumyun
   </h1>
 
   <!-- Profile Views & GitHub Followers Badges Side-by-Side -->
@@ -19,7 +19,7 @@
   <h2><img src="./img/folder.svg" width="28" height="28" align="center" /> About Me</h2>
 
   <p align="center">
-    I'm a <b>Software Engineer</b> who loves combining <b>technology, creativity, and design</b> ✨.<br />
+    I'm a Software Engineer who loves combining technology, creativity, and design ✨.
     I enjoy turning ideas into websites, applications, and interactive digital experiences. I'm always curious about new technologies and love learning by building real projects. 👩🏻‍💻
   </p>
 
@@ -51,13 +51,16 @@ template <typename T>
 class DeveloperCore {
 private:
     T secretKey;
+
 public:
     DeveloperCore(T key) : secretKey(key) {}
 
     auto decryptPassion() {
-        std::vector<int> encoded = {0x5A, 0x48, 0x55, 0x4C, 0x49, 0x44, 0x45};
+        std::vector<int> encoded = { 0x43, 0x4F, 0x46, 0x46, 0x45, 0x45,0x20,0x54, 0x49, 0x4D, 0x45};
+
         return [this, encoded]() mutable {
             int result = 0;
+
             for (auto& val : encoded) {
                 val ^= (secretKey & 0xFF);
                 result += val;
@@ -70,8 +73,9 @@ public:
 int main() {
     DeveloperCore<int> dev(0x00);
     auto unlock = dev.decryptPassion();
-    
-    // What does unlock() return? 🚀
+
+    // What powers this developer?👾
     std::cout << "Passion Score: " << unlock() << std::endl;
+
     return 0;
 }
