@@ -12,22 +12,28 @@
 
   <br /><br />
 
-  <!-- 3D Style Badges / Socials -->
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <!-- Custom SVG Icons & Social Links -->
+  <a href="https://linkedin.com">
+    <img src="./img/linkedin.svg" width="38" height="38" alt="LinkedIn" />
   </a>
-  <a href="https://instagram.com/YOUR-INSTAGRAM">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  &nbsp;
+  <a href="https://instagram.com">
+    <img src="./img/instagram.svg" width="38" height="38" alt="Instagram" />
   </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
+  &nbsp;
+  <img src="./img/terminal.svg" width="38" height="38" alt="Terminal" />
+  &nbsp;
+  <img src="./img/robot.svg" width="38" height="38" alt="Robot" />
+  &nbsp;
+  <img src="./img/camera.svg" width="38" height="38" alt="Camera" />
+  &nbsp;
+  <img src="./img/bow.svg" width="38" height="38" alt="Bow" />
 
 </div>
 
 ---
 
-### 👩🏻‍💻 About Me
+### <img src="./img/folder.svg" width="28" height="28" align="center" /> About Me
 
 ```javascript
 const developer = {
