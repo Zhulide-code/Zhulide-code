@@ -10,8 +10,15 @@
   <img src="https://komarev.com/ghpvc/?username=Zhulide-code&label=PROFILE+VIEWS&color=F75C7E&style=for-the-badge" alt="Profile Views" />
 
   <br /><br />
+### <img src="./img/folder.svg" width="28" height="28" align="center" /> About Me
 
-  <!-- Social Links & GitHub Followers -->
+I'm a Software Engineer who loves combining technology, creativity, and design ✨. 
+
+I enjoy turning ideas into websites, applications, and interactive digital experiences. I'm always curious about new technologies and love learning by building real projects.👩🏻‍💻
+
+</div>
+
+<!-- Social Links & GitHub Followers -->
   <a href="https://www.linkedin.com/in/zhulide-m-867a86384">
     <img src="./img/linkedin.svg" width="40" height="40" alt="LinkedIn" />
   </a>
@@ -20,15 +27,8 @@
     <img src="./img/instagram.svg" width="40" height="40" alt="Instagram" />
   </a>
 
-</div>
 
 ---
-
-### <img src="./img/folder.svg" width="28" height="28" align="center" /> About Me
-
-I'm a Software Engineer who loves combining technology, creativity, and design ✨. 
-
-I enjoy turning ideas into websites, applications, and interactive digital experiences. I'm always curious about new technologies and love learning by building real projects.
 
 <!-- C++ Challenge Block -->
 ```cpp
