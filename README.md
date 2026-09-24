@@ -1,33 +1,44 @@
 <div align="center">
 
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=24,25,26,27&height=220&section=header&text=Hi%20there,%20I'm%20a%20Software%20Developer!%20👋&fontSize=32&fontColor=ffffff&animation=fadeIn" width="100%" alt="Header Banner" />
+  <!-- Bow Icon & Name Title -->
+  <img src="./img/bow.svg" width="60" height="60" alt="Bow" />
+  <h1>Zhulide</h1>
 
-  <br />
+  <!-- Profile Views Counter -->
+  <img src="https://komarev.com/ghpvc/?username=Zhulide-code&label=PROFILE+VIEWS&color=F75C7E&style=for-the-badge" alt="Profile Views" />
+
+  <br /><br />
 
   <!-- Animated Typing Title -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&height=50&lines=Technology+%2B+Creativity+%2B+Design;Building+Interactive+Digital+Experiences;Always+Learning+%26+Creating" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&height=50&lines=Software+Developer;Technology+%2B+Creativity+%2B+Design;Building+Interactive+Digital+Experiences" alt="Typing SVG" />
   </a>
 
   <br /><br />
 
-  <!-- Custom SVG Icons & Social Links -->
-  <a href="https://linkedin.com">
-    <img src="./img/linkedin.svg" width="38" height="38" alt="LinkedIn" />
+  <!-- Social Links & GitHub Followers -->
+  <a href="https://www.linkedin.com/in/zhulide-m-867a86384">
+    <img src="./img/linkedin.svg" width="40" height="40" alt="LinkedIn" />
   </a>
-  &nbsp;
-  <a href="https://instagram.com">
-    <img src="./img/instagram.svg" width="38" height="38" alt="Instagram" />
+  &nbsp;&nbsp;
+  <a href="https://www.instagram.com/zhulide_?stkn=MTBobHJiNGtoNW9kOA%3D%3D&utm_source=qr">
+    <img src="./img/instagram.svg" width="40" height="40" alt="Instagram" />
   </a>
-  &nbsp;
-  <img src="./img/terminal.svg" width="38" height="38" alt="Terminal" />
-  &nbsp;
-  <img src="./img/robot.svg" width="38" height="38" alt="Robot" />
-  &nbsp;
-  <img src="./img/camera.svg" width="38" height="38" alt="Camera" />
-  &nbsp;
-  <img src="./img/bow.svg" width="38" height="38" alt="Bow" />
+  &nbsp;&nbsp;
+  <a href="https://github.com/Zhulide-code?tab=followers">
+    <img src="https://img.shields.io/github/followers/Zhulide-code?label=Followers&style=for-the-badge&color=238636&logo=github" alt="GitHub Followers" />
+  </a>
+  &nbsp;&nbsp;
+  <img src="./img/terminal.svg" width="40" height="40" alt="Terminal" />
+  &nbsp;&nbsp;
+  <img src="./img/robot.svg" width="40" height="40" alt="Robot" />
+  &nbsp;&nbsp;
+  <img src="./img/camera.svg" width="40" height="40" alt="Camera" />
+
+  <br /><br />
+
+  <!-- Header Banner -->
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=24,25,26,27&height=200&section=header&text=Welcome%20to%20my%20creative%20space!%20✨&fontSize=28&fontColor=ffffff&animation=fadeIn" width="100%" alt="Header Banner" />
 
 </div>
 
@@ -35,10 +46,42 @@
 
 ### <img src="./img/folder.svg" width="28" height="28" align="center" /> About Me
 
-```javascript
-const developer = {
-    name: "Software Developer",
-    passions: ["Technology", "Creativity", "Design"],
-    quote: "Turning ideas into interactive digital experiences.",
-    mindset: "Always curious, learning by building real projects 🚀"
+I'm a **Software Developer** who loves combining **technology, creativity, and design** ✨. 
+
+I enjoy turning ideas into websites, applications, and interactive digital experiences. I'm always curious about new technologies and love learning by building real projects.
+
+<!-- C++ Challenge Block -->
+```cpp
+#include <iostream>
+#include <vector>
+#include <numeric>
+
+// 🧩 CHALLENGE: Solve the output of this C++ template logic puzzle!
+template <typename T>
+class DeveloperCore {
+private:
+    T secretKey;
+public:
+    DeveloperCore(T key) : secretKey(key) {}
+
+    auto decryptPassion() {
+        std::vector<int> encoded = {0x5A, 0x48, 0x55, 0x4C, 0x49, 0x44, 0x45};
+        return [this, encoded]() mutable {
+            int result = 0;
+            for (auto& val : encoded) {
+                val ^= (secretKey & 0xFF);
+                result += val;
+            }
+            return result;
+        };
+    }
 };
+
+int main() {
+    DeveloperCore<int> dev(0x00);
+    auto unlock = dev.decryptPassion();
+    
+    // What does unlock() return? 🚀
+    std::cout << "Passion Score: " << unlock() << std::endl;
+    return 0;
+}
