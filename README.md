@@ -6,9 +6,10 @@
     Hi I'm Zhulide Myumyun
   </h1>
 
-  <!-- Profile Views & GitHub Followers Badges Side-by-Side -->
-  <img src="https://komarev.com/ghpvc/?username=Zhulide-code&label=PROFILE+VIEWS&color=F75C7E&style=for-the-badge" alt="Profile Views" />
-  &nbsp;
+ <!-- Profile Views Counter -->
+  <a href="https://visitcount.itsvg.in">
+    <img src="https://komarev.com/ghpvc/?username=Zhulide-code&icon=0&color=5" alt="Profile Views" />
+  </a>
   <a href="https://github.com/Zhulide-code?tab=followers">
     <img src="https://img.shields.io/github/followers/Zhulide-code?label=Followers&style=for-the-badge&color=238636&logo=github" alt="GitHub Followers" />
   </a>
