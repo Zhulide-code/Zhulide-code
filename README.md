@@ -37,16 +37,11 @@
 
   <br /><br />
 
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=24,25,26,27&height=200&section=header&text=Welcome%20to%20my%20creative%20space!%20✨&fontSize=28&fontColor=ffffff&animation=fadeIn" width="100%" alt="Header Banner" />
-
-</div>
-
 ---
 
 ### <img src="./img/folder.svg" width="28" height="28" align="center" /> About Me
 
-I'm a **Software Developer** who loves combining **technology, creativity, and design** ✨. 
+I'm a Software Engineer who loves combining technology, creativity, and design ✨. 
 
 I enjoy turning ideas into websites, applications, and interactive digital experiences. I'm always curious about new technologies and love learning by building real projects.
 
