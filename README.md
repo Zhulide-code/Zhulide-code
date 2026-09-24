@@ -1,32 +1,42 @@
 <div align="center">
 
-  <!-- Bow Icon & Name Title (Side by Side) -->
+  <!-- Bow Icon & Full Name Title -->
   <h1>
     <img src="./img/bow.svg" width="45" height="45" alt="Bow" style="vertical-align: middle; margin-right: 8px;" />
-    Zhulide
+    Zhulide Myumyun
   </h1>
 
-  <!-- Profile Views Counter -->
+  <!-- Profile Views & GitHub Followers Badges Side-by-Side -->
   <img src="https://komarev.com/ghpvc/?username=Zhulide-code&label=PROFILE+VIEWS&color=F75C7E&style=for-the-badge" alt="Profile Views" />
+  &nbsp;
+  <a href="https://github.com/Zhulide-code?tab=followers">
+    <img src="https://img.shields.io/github/followers/Zhulide-code?label=Followers&style=for-the-badge&color=238636&logo=github" alt="GitHub Followers" />
+  </a>
 
   <br /><br />
-### <img src="./img/folder.svg" width="28" height="28" align="center" /> About Me
 
-I'm a Software Engineer who loves combining technology, creativity, and design ✨. 
+  <!-- About Me Header -->
+  <h2><img src="./img/folder.svg" width="28" height="28" align="center" /> About Me</h2>
 
-I enjoy turning ideas into websites, applications, and interactive digital experiences. I'm always curious about new technologies and love learning by building real projects.👩🏻‍💻
+  <p align="center">
+    I'm a <b>Software Engineer</b> who loves combining <b>technology, creativity, and design</b> ✨.<br />
+    I enjoy turning ideas into websites, applications, and interactive digital experiences. I'm always curious about new technologies and love learning by building real projects. 👩🏻‍💻
+  </p>
 
-</div>
+  <br />
 
-<!-- Social Links & GitHub Followers -->
+  <!-- Centered Social Links (LinkedIn & Instagram) -->
   <a href="https://www.linkedin.com/in/zhulide-m-867a86384">
     <img src="./img/linkedin.svg" width="40" height="40" alt="LinkedIn" />
   </a>
-  &nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.instagram.com/zhulide_?stkn=MTBobHJiNGtoNW9kOA%3D%3D&utm_source=qr">
     <img src="./img/instagram.svg" width="40" height="40" alt="Instagram" />
   </a>
 
+</div>
+
+<br />
 
 ---
 
