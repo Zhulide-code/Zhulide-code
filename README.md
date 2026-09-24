@@ -9,10 +9,6 @@
 
   <br /><br />
 
-  <!-- Animated Typing Title -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&height=50&lines=Software+Developer;Technology+%2B+Creativity+%2B+Design;Building+Interactive+Digital+Experiences" alt="Typing SVG" />
-  </a>
 
   <br /><br />
 
@@ -25,16 +21,11 @@
     <img src="./img/instagram.svg" width="40" height="40" alt="Instagram" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/Zhulide-code?tab=followers">
-    <img src="https://img.shields.io/github/followers/Zhulide-code?label=Followers&style=for-the-badge&color=238636&logo=github" alt="GitHub Followers" />
-  </a>
-  &nbsp;&nbsp;
   <img src="./img/terminal.svg" width="40" height="40" alt="Terminal" />
   &nbsp;&nbsp;
   <img src="./img/robot.svg" width="40" height="40" alt="Robot" />
   &nbsp;&nbsp;
   <img src="./img/camera.svg" width="40" height="40" alt="Camera" />
-
   <br /><br />
 
 ---
