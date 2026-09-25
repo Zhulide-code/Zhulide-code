@@ -18,8 +18,7 @@
   <h2><img src="./img/folder.svg" width="28" height="28" align="center" /> About Me</h2>
 
   <p align="center">
-    I'm a Software Engineer who loves combining technology, creativity, and design ✨.
-    I enjoy turning ideas into websites, applications, and interactive digital experiences. I'm always curious about new technologies and love learning by building real projects. 👩🏻‍💻
+    I'm a Software Engineer driven by the intersection of technology, design, and user experience. I specialize in transforming concepts into clean, functional applications and interactive digital products. Always exploring new tech, I continuously expand my skills through hands-on project development. 👩🏻‍💻✨
   </p>
 
   <br />
