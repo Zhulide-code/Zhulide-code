@@ -46,14 +46,13 @@
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 ---
-
+# 🧩 CHALLENGE: Solve the output of this C++ template logic puzzle!
 <!-- C++ Challenge Block -->
 ```cpp
 #include <iostream>
 #include <vector>
 #include <numeric>
 
-// 🧩 CHALLENGE: Solve the output of this C++ template logic puzzle!
 template <typename T>
 class DeveloperCore {
 private:
@@ -81,7 +80,6 @@ int main() {
     DeveloperCore<int> dev(0x00);
     auto unlock = dev.decryptPassion();
 
-    //🕵🏻‍♀️ What powers this developer?
     std::cout << "Passion Score: " << unlock() << std::endl;
 
     return 0;
