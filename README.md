@@ -28,9 +28,6 @@
     <img src="./img/linkedin.svg" width="40" height="40" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.instagram.com/zhulide_?stkn=MTBobHJiNGtoNW9kOA%3D%3D&utm_source=qr">
-    <img src="./img/instagram.svg" width="40" height="40" alt="Instagram" />
-  </a>
 
 </div>
 
