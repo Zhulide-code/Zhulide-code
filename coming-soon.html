@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Something new is coming soon to Zhulide.">
+
+  <title>Coming Soon — Zhulide</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --background: #ffffff;
+      --foreground: #111111;
+      --muted: #999999;
+    }
+
+    html {
+      min-height: 100%;
+    }
+
+    body {
+      min-height: 100vh;
+      min-height: 100dvh;
+      font-family: "Inter", system-ui, sans-serif;
+      background: var(--background);
+      color: var(--foreground);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .wrap {
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .content {
+      animation: fadeUp 0.9s cubic-bezier(.2, .7, .3, 1) both;
+    }
+
+    .eyebrow {
+      display: block;
+      margin-bottom: 25px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      color: var(--muted);
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 7vw, 4rem);
+      font-weight: 800;
+      letter-spacing: -0.075em;
+      line-height: 1.1;
+    }
+
+    .period {
+      color: var(--muted);
+    }
+
+    .smile {
+      display: inline-block;
+      margin-left: 5px;
+      font-size: 0.55em;
+      font-weight: 500;
+      letter-spacing: -0.05em;
+      vertical-align: middle;
+    }
+
+    .description {
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.8;
+    }
+
+    .back {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin-top: 38px;
+      padding: 11px 17px;
+      color: var(--foreground);
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 600;
+      border: 1px solid #eaeaea;
+      border-radius: 50px;
+      transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+    }
+
+    .arrow {
+      font-size: 15px;
+      transition: transform 0.25s ease;
+    }
+
+    .back:hover {
+      background: #f7f7f7;
+      border-color: #dcdcdc;
+      transform: translateY(-2px);
+    }
+
+    .back:hover .arrow {
+      transform: translateX(-4px);
+    }
+
+    .back:focus-visible {
+      outline: 2px solid var(--foreground);
+      outline-offset: 4px;
+    }
+
+    .copyright {
+      position: absolute;
+      bottom: 25px;
+      color: #b5b5b5;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 1px;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(15px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .eyebrow {
+        font-size: 9px;
+        letter-spacing: 2.5px;
+      }
+
+      .description {
+        font-size: 13px;
+      }
+
+      .back {
+        margin-top: 30px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="wrap">
+    <div class="content">
+
+      <span class="eyebrow">ZHULIDE — PORTFOLIO</span>
+
+      <h1>
+        Coming soon<span class="period">.</span>
+        <span class="smile" aria-label="smiling face">:-)</span>
+      </h1>
+
+      <p class="description">
+        Something new is on its way.<br>
+        Stay tuned.
+      </p>
+
+      <a class="back" href="projects.html">
+        <span class="arrow" aria-hidden="true">←</span>
+        <span>Back to projects</span>
+      </a>
+
+    </div>
+
+    <span class="copyright">
+      © <span id="year"></span> Zhulide
+    </span>
+  </main>
+
+  <script>
+    const smile = document.querySelector(".smile");
+    const year = document.querySelector("#year");
+
+    year.textContent = new Date().getFullYear();
+
+    if (
+      smile &&
+      !window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
+      setInterval(() => {
+        smile.textContent = ";-)";
+
+        setTimeout(() => {
+          smile.textContent = ":-)";
+        }, 450);
+      }, 3500);
+    }
+  </script>
+
+</body>
+</html>
