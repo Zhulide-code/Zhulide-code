@@ -1,4 +1,4 @@
-<img width="1672" height="506" alt="hello_world_paars_wit" src="https://github.com/user-attachments/assets/8ebad4be-8094-4864-a494-64991cddecd0" />
+<img width="1672" height="506" alt="hello_world_geel_roze" src="https://github.com/user-attachments/assets/2124e420-be15-415e-a195-9b062b188972" />
 <p align="center">
   My personal site,
   <a href="https://zhulide-code.github.io/Zhulide-code/">
